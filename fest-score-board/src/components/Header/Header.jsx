@@ -1,17 +1,19 @@
-import React from 'react'
-import './Header.css'
-import logo from "@/assets/download.png"
-import { Link } from 'react-router-dom';
+import React from "react";
+import logo from "./download.png";
+import './Header.css';
 function Header() {
   return (
-    <div className='w-full h-16 bg-custom text-b;ack flex items-center justify-center font-bold'>
-      Fest Score Board
-      <a href="/">
-            <img src={logo} alt="Home" style={{ width: "20px"}} />
-            Home
-          </a>
+    <div className="w-full h-16 flex items-center font-bold border-b-2 border-[#e6dede] pt-[10px] text-3xl justify-items-center">
+      <a href="/" className="flex items-center">
+        <img
+          src={logo}
+          alt="Home"
+          className="w-[42px] rounded-[5px] ml-[10px] pr-[3px]"
+        />
+        <span className="ml-2 font-custom">THANAFUS ARTS FEST</span>
+      </a>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
