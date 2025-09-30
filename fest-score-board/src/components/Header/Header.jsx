@@ -1,18 +1,23 @@
 import React from "react";
-import logo from "./download.png";
-import './Header.css';
+import logo from "/favicon/favicon.svg";
+import "./Header.css";
+
 function Header() {
   return (
-    <div className="w-full h-16 flex items-center font-bold border-b-2 border-[#e6dede] pt-[10px] text-3xl justify-items-center">
-      <a href="/" className="flex items-center">
-        <img
-          src={logo}
-          alt="Home"
-          className="w-[42px] rounded-[5px] ml-[10px] pr-[3px]"
-        />
-        <span className="ml-2 font-custom">THANAFUS ARTS FEST</span>
-      </a>
-    </div>
+    <header className="w-full border-b-2 border-[#e6dede]">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:justify-between h-24 px-4 sm:px-8">
+        <a href="/" className="flex items-center">
+          <img
+            src={logo}
+            alt="Home"
+            className="w-16 h-16 sm:w-20 sm:h-20 rounded-md"
+          />
+          <span className="ml-3 text-cyan-500 font-logo font-semibold text-2xl sm:text-3xl text-center sm:text-left">
+            THANAFUS ARTS FEST
+          </span>
+        </a>
+      </div>
+    </header>
   );
 }
 

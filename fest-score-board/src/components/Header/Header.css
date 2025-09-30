@@ -1,2 +1,7 @@
-.font-custom{
-    font-family: 'Georgia', 'Garamond', 'Times New Roman', serif;}
+.font-logo {
+    font-family: "Orbitron", sans-serif;
+}
+
+.text-shadow-neutral-950 {
+    text-shadow: 2px 2px 4px #000000;
+}
