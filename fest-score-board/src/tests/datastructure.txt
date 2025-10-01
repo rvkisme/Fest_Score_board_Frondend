@@ -1,0 +1,18 @@
+{
+  "category": "senior",
+  "program": [
+    {
+      "name": "Quiz",
+      "score": {
+        "f": [
+          "_1": { "team": "QUBA", "candidate": "Ali", "place": 1 },
+          "_2": { "team": "THAIBA", "candidate": "Hassan", "place": 2 }
+        ],
+        "s": [
+          "_1": { "team": "MINA", "candidate": "Rahim", "place": 1 }
+        ],
+        "t": ""
+      }
+    }
+  ]
+}
