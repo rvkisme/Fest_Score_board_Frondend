@@ -9,9 +9,6 @@ function Board({scores = []}) {
                 <div className="w-full h-30 border-b-2 border-[#e6dede] flex justify-center items-center text-2xl font-bold">
                     SCORE BOARD
                 </div>
-        { 
-        console.log(scoreData)
-         }
                 <div className="w-full h-110 flex justify-around items-center p-1 ">
                     {scoreData.map((data, index) => (
                         <div
