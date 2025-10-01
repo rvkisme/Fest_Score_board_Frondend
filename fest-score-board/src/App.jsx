@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Header/Header";
 import GroupScore from "./pages/GroupScore/GroupScore";
 import DashboardHome from "./pages/dashboard/home/Home"; 
+import Slide from "./components/Carousel/carousel"
 // import ManageScores from "./pages/Dashboard/ManageScores"; 
 import "./App.css";
 
@@ -10,15 +11,10 @@ function App() {
   return (
     <>
       <Header />
-
-      <nav className="p-2 flex gap-4">
-        <Link to="/score">Home</Link>
-        <Link to="/dashboard">Dashboard</Link>
-      </nav>
-
       <Routes>
         {/* User pages */}
         <Route path="/score" element={<GroupScore />} />
+        <Route path="/tv" element={<Slide/>} />
         <Route
           path="/score/:category"
           element={

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "/favicon/favicon.svg";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -16,6 +17,10 @@ function Header() {
             THANAFUS ARTS FEST
           </span>
         </a>
+        <nav className="p-2 flex gap-4">
+        <Link to="/score">Home</Link>
+        <Link to="/tv">TV</Link>
+      </nav>
       </div>
     </header>
   );
