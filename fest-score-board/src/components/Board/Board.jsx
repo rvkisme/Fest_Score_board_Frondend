@@ -7,7 +7,7 @@ function Board({scores = []}) {
         <div className="w-full h-auto flex items-center justify-center ">
             <div className="w-full max-w-[330px] md:max-w-[500px] mt-5 ml-5 rounded-[15px] border-2 border-[#e6dede] custom">
                 <div className="w-full h-30 border-b-2 border-[#e6dede] flex justify-center items-center text-2xl font-bold">
-                    SCORE BOARD
+                    GRAND TOTAL
                 </div>
                 <div className="w-full h-110 flex justify-around items-center p-1 ">
                     {scoreData.map((data, index) => (

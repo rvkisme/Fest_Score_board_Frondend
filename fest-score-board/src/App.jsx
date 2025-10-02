@@ -29,7 +29,7 @@ function App() {
         {/* <Route path="/dashboard/manage-scores" element={<ManageScores />} /> */}
 
         {/* Catch-all */}
-        <Route path="/" element={<GroupScore />} />
+        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
     </>
   );
